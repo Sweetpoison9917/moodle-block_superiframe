@@ -1,0 +1,36 @@
+.block_superiframe_block {
+
+-moz-animation-name: dropBlock;
+-moz-animation-iteration-count: 1;
+-moz-animation-timing-function: ease-out;
+-moz-animation-duration: 0.6s;
+
+-webkit-animation-name: dropBlock;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: ease-out;
+-webkit-animation-duration: 0.6s;
+
+animation-name: dropBlock;
+animation-iteration-count: 1;
+animation-timing-function: ease-out;
+animation-duration: 0.6s;
+
+
+}
+
+@moz-keyframes dropBlock {
+	0%{
+		-moz-transform: translateY(-80px);
+	}
+	100% {
+	-moz-transform: translateY(0);
+	}
+}
+@-webkit-keyframes dropBlock{
+	0% {
+		transform: translateY(-80px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
